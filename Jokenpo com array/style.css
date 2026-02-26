@@ -1,0 +1,31 @@
+*{
+    justify-items: center;
+    font-family: 'Jersey 10', Courier, monospace;
+    font-size: larger;
+}
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+.butao{
+    color: white;
+    background-color: blue;
+    border: 5px;
+    border-radius: 10px;
+    border-color: none;
+}
+.butao:hover{
+    color: blue;
+    background-color: yellow;
+    cursor: pointer;
+}
+#pc{
+    display: flex;
+    justify-content: center;
+}
