@@ -19,11 +19,13 @@
     border: 5px;
     border-radius: 10px;
     border-color: none;
+    transition: transform 0.3s ease;
 }
 .butao:hover{
     color: blue;
     background-color: yellow;
     cursor: pointer;
+    transform: scale(1.1);
 }
 #pc{
     display: flex;
