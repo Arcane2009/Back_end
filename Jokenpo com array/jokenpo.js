@@ -17,7 +17,7 @@ function jogar(){
         document.getElementById("pc").src = imagensPC[sorteio];
         let resultado = (escolhaJogador - sorteio + 3)%3;
 
-        const mensagens = ["EMPATE!","Você vanceu BUUUU!!!","EU GANHEI HAHA"];
+        const mensagens = ["EMPATE!","Você venceu BUUUU!!!","EU GANHEI HAHA"];
         document.getElementById("placar").innerHTML = mensagens[resultado];
 }
 function resetar(){
