@@ -14,7 +14,7 @@
     font-style: normal;
 }  
 input{
-    margin-left: 35px;
+    margin-left: 300px;
 }
 .butao{
     color: white;
@@ -27,4 +27,10 @@ input{
     color: blue;
     background-color: yellow;
     cursor: pointer;
+}
+.certo{
+    color: green;
+}
+.errado{
+    color: red;
 }
